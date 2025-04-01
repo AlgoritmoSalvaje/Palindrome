@@ -13,7 +13,7 @@ function createPalindrome(originalWord) {
 }
 
 console.log(createPalindrome("ono"));  // Result: "onono"
-console.log(createPalindrome("abc"));  // Result: "abccba"
+console.log(createPalindrome("abc"));  // Result: "abcba"
 console.log(createPalindrome("race")); // Result: "racecar"
 
 function createOptimizedPalindrome(originalWord) {
